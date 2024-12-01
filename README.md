@@ -3,7 +3,7 @@
 
  Bem-vindo à GameRank,plataforma que oferece aos entusiastas de jogos a oportunidade de explorar, avaliar e ranquear uma variedade de jogos. Nosso projeto visa criar uma experiência envolvente para os usuários, permitindo-lhes descobrir novos jogos e construir uma lista personalizada de favoritos.
 
-Colaborei com a construção das telas no figma, como também no desenvolvimento do front e back, é possível visualizar a colaboração da equipe com mais detalhes no repositório:
+Colaborei com a construção das telas no figma, como também no desenvolvimento do front e back, é possível visualizar a colaboração da equipe como um todo no:
 [Repositório Principal](https://github.com/pabloreis5/Gamerank-Projeto) 
 
  ## Índice
