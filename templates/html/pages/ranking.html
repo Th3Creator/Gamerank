@@ -1,0 +1,33 @@
+{%extends 'base.html'%}
+{%block content%}
+
+<section class="ranking">
+    <h1>Ranqueamento:</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Top</th>
+          <th>Jogo</th>
+          <th>Nome</th>
+          <th>Descrição</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+    
+      <tbody>
+        {% for jogo in ranking %}
+        <tr>
+          <td>#{{ loop.index }}</td>
+          <td><img src="{{ jogo.url_imagem }}" alt="{{ jogo.nome }}"></td>
+          <td>{{ jogo.nome }}</td>
+          <td>{{ jogo.descricao_completa }}</td>
+          <td>{{ jogo.nota_media }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+</section>
+
+{%endblock content%}
